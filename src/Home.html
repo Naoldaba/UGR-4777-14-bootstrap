@@ -1,185 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Home</title>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="./icons/fontawesome-free-6.4.2-web/css/all.css">
-        <meta content="width=device-width, initial-scale=1" name="viewport">
-    </head>
-    <body>
-        <header>
-            <div class="logo">
-                <span>ND</span>
+<head>
+    <title>Home</title>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./icons/fontawesome-free-6.4.2-web/css/all.css">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+</head>
+<body>
+    <header class="d-flex justify-content-between align-items-center px-2 py-4 bg-dark text-light">
+        <div class="bg-danger text-2xl rounded-circle p-2">
+            <span>ND</span>
+        </div>
+
+        <nav class="d-none d-md-block">
+            <ul class="d-flex gap-3 text-lg list-unstyled m-0">
+                <li><a href="#hero" class="text-white text-decoration-none">Home</a></li>
+                <li><a href="#about_me" class="text-white text-decoration-none">About</a></li>
+                <li><a href="#projects" class="text-white text-decoration-none">Projects</a></li>
+                <li><a href="./Services.html" class="text-white text-decoration-none">Services</a></li>
+                <li><a href="./ContactMe.html" class="text-white text-decoration-none">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="d-md-none">
+            <div id="nav-toggler" class="text-2xl">
+                <i class="fas fa-bars"></i>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="#hero">Home</a></li>
-                    <li><a href="#about_me">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="./Services.html">Services</a></li>
-                    <li><a href="./ContactMe.html">Contact</a></li>
+            <div id="nav-drop" class="d-none w-100 border-top border-white my-2">
+                <ul class="d-flex flex-column gap-3 pt-2 text-lg list-unstyled m-0">
+                    <li><a href="#hero" class="text-white text-decoration-none">Home</a></li>
+                    <li><a href="#about_me" class="text-white text-decoration-none">About</a></li>
+                    <li><a href="#projects" class="text-white text-decoration-none">Projects</a></li>
+                    <li><a href="./Services.html" class="text-white text-decoration-none">Services</a></li>
+                    <li><a href="./ContactMe.html" class="text-white text-decoration-none">Contact</a></li>
                 </ul>
-            </nav>
-            <div class="nav-toggler"><i class="fas fa-bars"></i></div>
-            <div id="nav-drop"></div>
-        </header>
-        <main>
-            <div id="home-main">
-                <section id="hero">
-                    <div>
-                        <h1 class="hiddenx">Hey, I'M <span>NAOL DABA</span></h1>
-                        <p>Welcome to my digital realm, where
-                            lines of code transform into dynamic solutions.
-                            I am Naol Daba, a seasoned software engineer with
-                            a passion for crafting elegant, efficient, and scalable
-                            applications.
-                        </p>
-
-                        <p class="quote"><q>Give someone a program; you frustrate them for a day; teach them how to program, and you frustrate them for a lifetime</q></p>
-                        <p class="quote">-David Leinweber-</p>
-
-                        <a href="./Projects.html" class="button-link">PROJECTS</a>
-                    </div>
-
-                    <aside>
-                        <a href="https://www.linkedin.com/in/naol-daba-1b42b4258?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BL%2BAJLt7nSaGwTQKpt70LCA%3D%3D" target="_blank"><i class="linkedin fa-brands fa-linkedin"></i></a>
-                        <a href="https://github.com/Naoldaba" target="_blank"><i class="github fa-brands fa-github"></i></a>
-                        <a href="#"><i class="facebook fa-brands fa-facebook-f"></i></a>
-                        <a href="#"><i class="twitter fa-brands fa-x-twitter"></i></a>
-                        <a href="#"><i class="youtube fa-brands fa-youtube"></i></a>
-                    </aside>
-
-                </section>
-                <section id="about_me">
-                    <div class="intro">
-                        <h1>ABOUT ME</h1>
-                        <div class="underline"></div>
-                        <p>Here you will find more information about me,
-                            what I do, and my current skills mostly in
-                            terms of programming and technology</p>
-                    </div>
-                    <div class="details">
-                        <div id="know_me">
-                            <h3>Get to know me!</h3>
-                            <p>I am a passionate and skilled software engineer.
-                                My career is driven by a deep curiosity for technology
-                                and a commitment to creating efficient, scalable, and
-                                innovative software solutions.
-                            </p>
-                            <p>With 2 Years of experiance in the industry, I have had the privilage of working
-                                on diverse range of projects, from web design and development
-                                to mobile and enterprise software devlopment. I'm
-                                proficient in Python, Java, React, Nodejs, Expressjs,
-                                MySQL, MongoDB.</p>
-                            <a href="./AboutMe.html" class="button-link">Know More</a>
-                        </div>
-                        <div id="skills">
-                            <div>Python</div>
-                            <div>Java</div>
-                            <div>HTML</div>
-                            <div>CSS</div>
-                            <div>JavaScript</div>
-                            <div>React</div>
-                            <div>Nodejs</div>
-                            <div>Expressjs</div>
-                            <div>MySQL</div>
-                            <div>MongoDB</div>
-                        </div>
-                    </div>
-                </section>
-                <section id="projects">
-                    <div class="intro">
-                        <h1>PROJECTS</h1>
-                        <div class="underline"></div>
-                        <p>Here you will find some of the personal
-                        and clients projects that I created with each
-                         project containing its own case study</p>
-                    </div>
-                    <div class="showcase">
-                        <figure>
-                            <img src="./images/AbronetPc.png" class="hiddenx">
-                            <figcaption>Abronet digital Equb</figcaption>
-                        </figure>
-
-                        <div>
-                            <h3>Abronet.org</h3>
-                            <p>This is a specific Fintech platform that
-                                aims to modernize and digitize the traditional
-                                Equb concept, providing a digital platform for
-                                individuals to participate in similar group
-                                savings and lending activities.
-                            </p>
-                            <a href="Projects.html#abronet" class="button-link">Read More</a>
-                        </div>
-                    </div>
-
-                    <div class="showcase">
-                        <figure>
-                            <img src="./images/EsstiPc.png" class="hiddenx">
-                            <figcaption>Etiopian space sciece technology institute</figcaption>
-                        </figure>
-
-                        <div>
-                            <h3>ESSTI</h3>
-                            <p>ESSTI.org is a website that serves as online platform
-                                for the Ethiopian space science and technology
-                                institute.The Ethiopian Space Science Society (ESSTI)
-                                is an organization dedicated to advancing space
-                                science and technology in Ethiopia.</p>
-                            <a href="Projects.html#abronet" class="button-link">Read More</a>
-                        </div>
-                    </div>
-
-                    <div class="showcase">
-                        <figure>
-                            <img src="./images/ET-pc.png" class="hiddenx">
-                            <figcaption>ETwood- Free Ethiopian movie streeming site</figcaption>
-                        </figure>
-
-                        <div>
-                            <h3>ETwood</h3>
-                            <p>ETwood is an Ethiopian Movie streaming site/ online
-                                platform that allow users to watch movies
-                                 and TV shows over the internet. This site
-                                 have become immensely popular due to its
-                                 convenience it offer in accessing a wide
-                                 range of content without the need for physical
-                                 media or traditional television broadcasting.</p>
-                            <a href="Projects.html#abronet" class="button-link">Read More</a>
-                        </div>
-                    </div>
-
-                </section>
             </div>
-
-        </main>
-        <footer>
-            <div id="add-info">
-                <div class="address">
-                  <h2>Address</h2>
-                  <address>
-                      <p>Ethiopia, Addis Ababa</p>
-                      <p>5kilo kingGeorge VI Street</p>
-                      <p>Email: nahafile@gmail.com</p>
-                      <p>phone: +251 920 375 653</p>
-                  </address>
+        </div>
+    </header>
+    <main>
+        <div>
+            <section class="vh-100 d-flex justify-content-center align-items-center">
+                <div class="w-75 text-center">
+                    <h1 class="text-3xl md:text-5xl fw-bold pb-3">Hey, I'M <span class="text-danger">NAOL DABA</span></h1>
+                    <p class="md:text-xl">Welcome to my digital realm, where lines of code transform into dynamic solutions. I am Naol Daba, a seasoned software engineer with a passion for crafting elegant, efficient, and scalable applications.</p>
+                    <p class="mb-4"><q>Give someone a program; you frustrate them for a day; teach them how to program, and you frustrate them for a lifetime</q></p>
+                    <p class="mb-4">-David Leinweber-</p>
+                    <a href="./Projects.html" class="btn btn-danger btn-sm text-white p-2 rounded-pill">PROJECTS</a>
+                </div>
+                <aside class="d-flex flex-column gap-2 bg-dark text-light p-2 position-absolute top-80 start-0 ">
+                    <a href="https://www.linkedin.com/in/naol-daba-1b42b4258?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BL%2BAJLt7nSaGwTQKpt70LCA%3D%3D" target="_blank"><i class="fab fa-linkedin text-white"></i></a>
+                    <a href="https://github.com/Naoldaba" target="_blank"><i class="fab fa-github text-white"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f text-white"></i></a>
+                    <a href="#"><i class="fab fa-twitter text-white"></i></a>
+                    <a href="#"><i class="fab fa-youtube text-white"></i></a>
+                </aside>
+            </section>
+            <section id="about_me">
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    <h1 class="w-100 text-center text-2xl fw-bold">ABOUT ME</h1>
+                    <div class="w-8 h-2 rounded bg-danger my-3"></div>
+                    <p class="w-75 text-center">Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</p>
+                </div>
+                <div class="d-flex flex-wrap p-5 gap-2 justify-content-center align-items-center">
+                    <div class="w-100 md:w-50 mb-5">
+                        <h3 class="text-lg fw-bold">Get to know me!</h3>
+                        <p>I am a passionate and skilled software engineer. My career is driven by a deep curiosity for technology and a commitment to creating efficient, scalable, and innovative software solutions.</p>
+                        <p class="mb-4">With 2 Years of experience in the industry, I have had the privilege of working on a diverse range of projects, from web design and development to mobile and enterprise software development. I'm proficient in Python, Java, React, Node.js, Express.js, MySQL, MongoDB.</p>
+                        <a href="./AboutMe.html" class="btn btn-danger btn-sm text-white p-2 rounded-pill">Know More</a>
+                    </div>
+                    <div class="d-flex flex-wrap gap-1 w-75 md:w-33 text-lg">
+                        <div class="bg-light p-1 rounded">Python</div>
+                        <div class="bg-light p-1 rounded">Java</div>
+                        <div class="bg-light p-1 rounded">HTML</div>
+                        <div class="bg-light p-1 rounded">CSS</div>
+                        <div class="bg-light p-1 rounded">JavaScript</div>
+                        <div class="bg-light p-1 rounded">React</div>
+                        <div class="bg-light p-1 rounded">Node.js</div>
+                        <div class="bg-light p-1 rounded">Express.js</div>
+                        <div class="bg-light p-1 rounded">MySQL</div>
+                        <div class="bg-light p-1 rounded">MongoDB</div>
+                    </div>
+                </div>
+            </section>
+            <section class="mx-12" id="projects">
+                <div class="d-flex flex-column align-items-center mb-5">
+                    <h1 class="w-100 text-center text-2xl fw-bold">PROJECTS</h1>
+                    <div class="w-8 h-2 rounded bg-danger my-3"></div>
+                    <p class="w-2/3 text-center mb-10">Here you will find some of the personal and clients' projects that I created, with each project containing its own case study.</p>
                 </div>
 
-                <div id="social">
-                    <h2>Social media</h2>
-                    <div>
-                      <a href="https://www.linkedin.com/in/naol-daba-1b42b4258?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BL%2BAJLt7nSaGwTQKpt70LCA%3D%3D" target="_blank"><i class="linkedin fa-brands fa-linkedin"></i></a>
-                      <a href="https://github.com/Naoldaba" target="_blank"><i class="github fa-brands fa-github"></i></a>
-                      <a href="#"><i class="facebook fa-brands fa-facebook-f"></i></a>
-                      <a href="#"><i class="twitter fa-brands fa-x-twitter"></i></a>
-                      <a href="#"><i class="youtube fa-brands fa-youtube"></i></a>
+                <div class="d-flex flex-wrap justify-content-center align-items-center p-3 mb-5 w-75 mx-auto shadow-lg">
+                    <figure class="col-md-6 col-12 my-10">
+                        <img src="./images/AbronetPc.png" class="w-100 hidden">
+                        <figcaption class="text-center text-sm">Abronet digital Equb</figcaption>
+                    </figure>
+
+                    <div class="col-md-6 col-12">
+                        <h3 class="text-lg fw-bold">Abronet.org</h3>
+                        <p class="mb-3">This is a specific Fintech platform that aims to modernize and digitize the traditional Equb concept, providing a digital platform for individuals to participate in similar group savings and lending activities.</p>
+                        <a href="Projects.html#abronet" class="btn btn-danger btn-sm text-white p-2 rounded-pill">Read More</a>
                     </div>
                 </div>
 
+                <div class="d-flex flex-wrap justify-content-center align-items-center p-3 mb-5 w-75 mx-auto shadow-lg">
+                    <figure class="col-md-6 col-12 my-10">
+                        <img src="./images/EsstiPc.png" class="w-100 hidden">
+                        <figcaption class="text-center text-sm">Ethiopian space science technology institute</figcaption>
+                    </figure>
+
+                    <div class="col-md-6 col-12">
+                        <h3 class="text-lg fw-bold">ESSTI</h3>
+                        <p class="mb-3">ESSTI.org is a website that serves as an online platform for the Ethiopian space science and technology institute. The Ethiopian Space Science Society (ESSTI) is an organization dedicated to advancing space science and technology in Ethiopia.</p>
+                        <a href="Projects.html#essti" class="btn btn-danger btn-sm text-white p-2 rounded-pill">Read More</a>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-wrap justify-content-center align-items-center p-3 w-75 mx-auto shadow-lg mb-5">
+                    <figure class="col-md-6 col-12 my-10">
+                        <img src="./images/ET-pc.png" class="w-100 hidden">
+                        <figcaption class="text-center text-sm">ETwood - Free Ethiopian movie streaming site</figcaption>
+                    </figure>
+
+                    <div class="col-md-6 col-12">
+                        <h3 class="text-lg fw-bold">ETwood</h3>
+                        <p class="mb-3">ETwood is an Ethiopian Movie streaming site/online platform that allows users to watch movies and TV shows over the internet. This site has become immensely popular due to its convenience it offers in accessing a wide range of content without the need for physical media or traditional television broadcasting.</p>
+                        <a href="Projects.html#etwood" class="btn btn-danger btn-sm text-white p-2 rounded-pill">Read More</a>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="bg-dark text-light">
+        <div class="d-flex justify-content-around">
+            <div class="address">
+                <h2 class="text-lg">Address</h2>
+                <address>
+                    <p>Ethiopia, Addis Ababa</p>
+                    <p>5kilo kingGeorge VI Street</p>
+                    <p>Email: nahafile@gmail.com</p>
+                    <p>phone: +251 920 375 653</p>
+                </address>
             </div>
-            <div id="copyright">
-                <span> &copy; Copyright 2023. Made by <a>Naol Daba</a></span>
+            <div class="self-center">
+                <h2 class="text-lg">Social media</h2>
+                <div class="d-flex gap-2">
+                    <a href="https://www.linkedin.com/in/naol-daba-1b42b4258?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BL%2BAJLt7nSaGwTQKpt70LCA%3D%3D" target="_blank">
+                        <i class="fab fa-linkedin text-white"></i>
+                    </a>
+                    <a href="https://github.com/Naoldaba" target="_blank">
+                        <i class="fab fa-github text-white"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-facebook-f text-white"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter text-white"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-youtube text-white"></i>
+                    </a>
+                </div>
             </div>
-        </footer>
-    </body>
+        </div>
+        <div class="text-center text-xs border-top border-white pt-1 mt-1">
+            <span>&copy; Copyright 2023. Made by <a>Naol Daba</a></span>
+        </div>
+    </footer>
+
+    <script src="./js/index.js"></script>
+</body>
 </html>
